@@ -18,6 +18,7 @@ const playSound = (stop) => {
       oldParkRidings.play();
       break;
     default:
+      alert("No stop found");
       break;
   }
 };
