@@ -243,7 +243,9 @@ busStops.forEach((stop) => {
   button.textContent = stop.name;
   button.className = "busButton";
 
-  button.addEventListener("click", () => {
+  const event = "ontouchstart" in window ? "touchstart" : "click";
+
+  button.addEventListener(event, () => {
     playSound(stop.id);
   });
 
