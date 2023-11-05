@@ -1,0 +1,15 @@
+export const busStops = [
+  "Station Road",
+  "Shrubbery Gardens",
+  "Green Dragon Lane",
+  "Old Park Ridings",
+  "Hadley Way",
+  "Bazile Road",
+  "Eversley Park Road",
+  "Eversley Mount",
+  "Church Hill",
+  "Park Gate",
+  "Queen Elizabeth's Drive",
+  "St Thomas Road",
+  "Southgate Station",
+];
