@@ -10,4 +10,5 @@
   border: 5px solid blue;
   border-radius: 1rem;
   background-color: azure;
+  cursor: pointer;
 }
