@@ -146,5 +146,65 @@
   {
     "id": "finchleyCentralStation",
     "name": "Finchley Central Station"
+  },
+  {
+    "id": "dollisParkFinchleyCentralStation",
+    "name": "Dollis Park/Finchley Central Station"
+  },
+  {
+    "id": "stMarysChurch",
+    "name": "St Mary's Church"
+  },
+  {
+    "id": "stMarysAvenue",
+    "name": "St Marys Avenue"
+  },
+  {
+    "id": "ardenRoad",
+    "name": "Arden Road"
+  },
+  {
+    "id": "crookedUsage",
+    "name": "Crooked Usage"
+  },
+  {
+    "id": "broughtonAvenue",
+    "name": "Broughton Avenue"
+  },
+  {
+    "id": "greatNorthWay",
+    "name": "Great North Way"
+  },
+  {
+    "id": "alexandraRoad",
+    "name": "Alexandra Road"
+  },
+  {
+    "id": "theQuadrant",
+    "name": "The Quadrant"
+  },
+  {
+    "id": "churchEnd",
+    "name": "Church End"
+  },
+  {
+    "id": "greyhoundHill",
+    "name": "Greyhound Hill"
+  },
+  {
+    "id": "rowanDrive",
+    "name": "Rowan Drive"
+  },
+  {
+    "id": "heritageAvenue",
+    "name": "Heritage Avenue"
+  },
+  {
+    "id": "peelCentre",
+    "name": "Peel Centre"
+  },
+  {
+    "id": "colindaleStation",
+    "name": "Colindale Station"
   }
 ]
