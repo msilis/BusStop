@@ -92,8 +92,8 @@ export const busStops = [
     name: "Pollard Road",
   },
   {
-    id: "myddletonPark",
-    name: "Myddleton Park",
+    id: "myddeltonPark",
+    name: "Myddelton Park",
   },
   {
     id: "ashcroftCourt",

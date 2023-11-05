@@ -11,7 +11,7 @@ const eversleyParkRoad = new Audio("./StopRecordings/eversleyParkRoad.ogg");
 const eversleyMount = new Audio("./StopRecordings/eversleyMount.ogg");
 const churchHill = new Audio("./StopRecordings/churchHill.ogg");
 const parkGate = new Audio("./StopRecordings/parkGate.ogg");
-const queenElizabetshDrive = new Audio(
+const queenElizabethsDrive = new Audio(
   "./StopRecordings/queenElizabethsDrive.ogg"
 );
 const stThomasRoad = new Audio("./StopRecordings/stThomasRoad.ogg");
