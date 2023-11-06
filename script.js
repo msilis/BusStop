@@ -251,17 +251,3 @@ busStops.forEach((stop) => {
 
   buttonContainer.appendChild(button);
 });
-
-if (
-  navigator.userAgent.match(/iPhone/i) ||
-  navigator.userAgent.match(/iPod/i) ||
-  navigator.userAgent.match(/iPad/i)
-) {
-  function sndInit() {
-    snd.play();
-    snd.pause();
-    document.getElementById("init").style.display = "none";
-  }
-
-  document.write(`${(<a id="init" ontouchstart={() => sndInit}></a>)}`);
-}
