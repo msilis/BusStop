@@ -10,7 +10,7 @@ busStops.forEach((stop) => {
   button.id = stop.id;
   button.textContent = stop.name;
   button.className = "busButton";
-  button.setAttribute("onClick", () => playSound(stop.id));
+  button.setAttribute("click", "");
 
   button.addEventListener("click", () => {
     console.log("button clicked");
@@ -20,7 +20,7 @@ busStops.forEach((stop) => {
     playSound(stop.id);
   });
   const pointerListener = new PointerListener(button);
-  button.addEventListener("tap", playSound(stop.id));
+  button.addEventListener("tap", () => playSound(stop.id));
 
   buttonContainer.appendChild(button);
 });
