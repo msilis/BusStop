@@ -10,12 +10,15 @@ busStops.forEach((stop) => {
   button.id = stop.id;
   button.textContent = stop.name;
   button.className = "busButton";
-  //   button.setAttribute("onClick", "");
+  button.setAttribute("onClick", "");
 
-  //   button.addEventListener("click", () => {
-  //     console.log("button clicked");
-  //     playSound(stop.id);
-  //   });
+  button.addEventListener("click", () => {
+    console.log("button clicked");
+    playSound(stop.id);
+  });
+  button.addEventListener("touchstart", () => {
+    playSound(stop.id);
+  });
   const pointerListener = new PointerListener(button);
   button.addEventListener("tap", playSound(stop.id));
 
