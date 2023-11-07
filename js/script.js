@@ -10,7 +10,7 @@ busStops.forEach((stop) => {
   button.id = stop.id;
   button.textContent = stop.name;
   button.className = "busButton";
-  button.setAttribute("onClick", "");
+  button.setAttribute("onClick", playSound(id));
 
   button.addEventListener("click", () => {
     console.log("button clicked");
