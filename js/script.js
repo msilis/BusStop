@@ -15,10 +15,10 @@ busStops.forEach((stop) => {
     console.log("button clicked");
     playSound(stop.id);
   });
-  button.addEventListener("touchstart", () => {
-    console.log("touchstart event");
-    playSound(stop.id);
-  });
+  //   button.addEventListener("touchstart", () => {
+  //     console.log("touchstart event");
+  //     playSound(stop.id);
+  //   });
 
   buttonContainer.appendChild(button);
 });
