@@ -17,10 +17,7 @@ busStops.forEach((stop) => {
   //     playSound(stop.id);
   //   });
   const pointerListener = new PointerListener(button);
-  button.addEventListener("tap", () => {
-    console.log("button tapped");
-    playSound(stop.id);
-  });
+  button.addEventListener("tap", playSound(stop.id));
 
   buttonContainer.appendChild(button);
 });
