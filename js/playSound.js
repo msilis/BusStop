@@ -1,166 +1,169 @@
 import { busStopAudio } from "./busStopAudio.js";
 
+const playAudio = (audio) => {
+  audio.play().catch((error) => console.log(error));
+};
+
 export const playSound = (stop) => {
   switch (stop) {
     case "stationRoad":
-      busStopAudio.stationRoad.play();
+      playAudio(busStopAudio.stationRoad);
       break;
     case "winchmoreHill":
-      busStopAudio.winchmoreHill.play();
+      playAudio(busStopAudio.winchmoreHill);
       break;
     case "shrubberyGardens":
-      busStopAudio.shrubberyGardens.play();
+      playAudio(busStopAudio.shrubberyGardens);
       break;
     case "greenDragonLane":
-      busStopAudio.greenDragonLane.play();
+      playAudio(busStopAudio.greenDragonLane);
       break;
     case "oldParkRidings":
-      busStopAudio.oldParkRidings.play();
-      "";
+      playAudio(busStopAudio.oldParkRidings);
       break;
     case "hadleyWay":
-      busStopAudio.hadleyWay.play();
+      playAudio(busStopAudio.hadleyWay);
       break;
     case "bazileRoad":
-      busStopAudio.bazileRoad.play();
+      playAudio(busStopAudio.bazileRoad);
       break;
     case "eversleyParkRoad":
-      busStopAudio.eversleyParkRoad.play();
+      playAudio(busStopAudio.eversleyParkRoad);
       break;
     case "eversleyMount":
-      busStopAudio.eversleyMount.play();
+      playAudio(busStopAudio.eversleyMount);
       break;
     case "churchHill":
-      busStopAudio.churchHill.play();
+      playAudio(busStopAudio.churchHill);
       break;
     case "parkGate":
-      busStopAudio.parkGate.play();
+      playAudio(busStopAudio.parkGate);
       break;
     case "queenElizabethsDrive":
-      busStopAudio.queenElizabethsDrive.play();
+      playAudio(busStopAudio.queenElizabethsDrive);
       break;
     case "stThomasRoad":
-      busStopAudio.stThomasRoad.play();
+      playAudio(busStopAudio.stThomasRoad);
       break;
     case "southgateStation":
-      busStopAudio.southgateStation.play();
+      playAudio(busStopAudio.southgateStation);
       break;
     case "southgatePoliceStation":
-      busStopAudio.southgatePoliceStation.play();
+      playAudio(busStopAudio.southgatePoliceStation);
       break;
     case "southgateAsda":
-      busStopAudio.southgateAsda.play();
+      playAudio(busStopAudio.southgateAsda);
       break;
     case "avenueRoad":
-      busStopAudio.avenueRoad.play();
+      playAudio(busStopAudio.avenueRoad);
       break;
     case "manorDrive":
-      busStopAudio.manorDrive.play();
+      playAudio(busStopAudio.manorDrive);
       break;
     case "hampdenSquare":
-      busStopAudio.hampdenSquare.play();
+      playAudio(busStopAudio.hampdenSquare);
       break;
     case "osidgeLibrary":
-      busStopAudio.osidgeLibrary.play();
+      playAudio(busStopAudio.osidgeLibrary);
       break;
     case "deneRoad":
-      busStopAudio.deneRoad.play();
+      playAudio(busStopAudio.deneRoad);
       break;
     case "beresfordAvenue":
-      busStopAudio.beresfordAvenue.play();
+      playAudio(busStopAudio.beresfordAvenue);
       break;
     case "pollardRoad":
-      busStopAudio.pollardRoad.play();
+      playAudio(busStopAudio.pollardRoad);
       break;
     case "myddeltonPark":
-      busStopAudio.myddeltonPark.play();
+      playAudio(busStopAudio.myddeltonPark);
       break;
     case "ashcroftCourt":
-      busStopAudio.ashcroftCourt.play();
+      playAudio(busStopAudio.ashcroftCourt);
       break;
     case "whetstoneTheGriffin":
-      busStopAudio.whetstoneTheGriffin.play();
+      playAudio(busStopAudio.whetstoneTheGriffin);
       break;
     case "whetstoneHighRoadFriernBarnetLane":
-      busStopAudio.whetstoneHighRoadFriernBarnetLane.play();
+      playAudio(busStopAudio.whetstoneHighRoadFriernBarnetLane);
       break;
     case "swanLane":
-      busStopAudio.swanLane.play();
+      playAudio(busStopAudio.swanLane);
       break;
     case "derwentCrescent":
-      busStopAudio.derwentCrescent.play();
+      playAudio(busStopAudio.derwentCrescent);
       break;
     case "finchleyPark":
-      busStopAudio.finchleyPark.play();
+      playAudio(busStopAudio.finchleyPark);
       break;
     case "ravensdaleAvenue":
-      busStopAudio.ravensdaleAvenue.play();
+      playAudio(busStopAudio.ravensdaleAvenue);
       break;
     case "torringtonPark":
-      busStopAudio.torringtonPark.play();
+      playAudio(busStopAudio.torringtonPark);
       break;
     case "tallyHoCorner":
-      busStopAudio.tallyHoCorner.play();
+      playAudio(busStopAudio.tallyHoCorner);
       break;
     case "woodberryGrove":
-      busStopAudio.woodberryGrove.play();
+      playAudio(busStopAudio.woodberryGrove);
       break;
     case "granvilleRoad":
-      busStopAudio.granvilleRoad.play();
+      playAudio(busStopAudio.granvilleRoad);
       break;
     case "victoriaPark":
-      busStopAudio.victoriaPark.play();
+      playAudio(busStopAudio.victoriaPark);
       break;
     case "longLane":
-      busStopAudio.longLane.play();
+      playAudio(busStopAudio.longLane);
       break;
     case "finchleyCentralStation":
-      busStopAudio.finchleyCentralStation.play();
+      playAudio(busStopAudio.finchleyCentralStation);
       break;
     case "dollisParkFinchleyCentralStation":
-      busStopAudio.dollisParkFinchleyCentralStation.play();
+      playAudio(busStopAudio.dollisParkFinchleyCentralStation);
       break;
     case "stMarysChurch":
-      busStopAudio.stMarysChurch.play();
+      playAudio(busStopAudio.stMarysChurch);
       break;
     case "stMarysAvenue":
-      busStopAudio.stMarysAvenue.play();
+      playAudio(busStopAudio.stMarysAvenue);
       break;
     case "ardenRoad":
-      busStopAudio.ardenRoad.play();
+      playAudio(busStopAudio.ardenRoad);
       break;
     case "crookedUsage":
-      busStopAudio.crookedUsage.play();
+      playAudio(busStopAudio.crookedUsage);
       break;
     case "broughtonAvenue":
-      busStopAudio.broughtonAvenue.play();
+      playAudio(busStopAudio.broughtonAvenue);
       break;
     case "greatNorthWay":
-      busStopAudio.greatNorthWay.play();
+      playAudio(busStopAudio.greatNorthWay);
       break;
     case "alexandraRoad":
-      busStopAudio.alexandraRoad.play();
+      playAudio(busStopAudio.alexandraRoad);
       break;
     case "theQuadrant":
-      busStopAudio.theQuadrant.play();
+      playAudio(busStopAudio.theQuadrant);
       break;
     case "churchEnd":
-      busStopAudio.churchEnd.play();
+      playAudio(busStopAudio.churchEnd);
       break;
     case "greyhoundHill":
-      busStopAudio.greyhoundHill.play();
+      playAudio(busStopAudio.greyhoundHill);
       break;
     case "rowanDrive":
-      busStopAudio.rowanDrive.play();
+      playAudio(busStopAudio.rowanDrive);
       break;
     case "heritageAvenue":
-      busStopAudio.heritageAvenue.play();
+      playAudio(busStopAudio.heritageAvenue);
       break;
     case "peelCentre":
-      busStopAudio.peelCentre.play();
+      playAudio(busStopAudio.peelCentre);
       break;
     case "colindaleStation":
-      busStopAudio.colindaleStation.play();
+      playAudio(busStopAudio.colindaleStation);
       break;
 
     default:

@@ -1,6 +1,5 @@
 import { busStops } from "../stopInfo/busStops.js";
 import { playSound } from "./playSound.js";
-import { PointerListener } from "./contact.js";
 
 const buttonContainer = document.getElementById("busRouteContainer");
 
@@ -17,11 +16,8 @@ busStops.forEach((stop) => {
     playSound(stop.id);
   });
   button.addEventListener("touchstart", () => {
-    console.log("touchstart event");
     playSound(stop.id);
   });
-  const pointerListener = new PointerListener(button);
-  button.addEventListener("tap", () => playSound(stop.id));
 
   buttonContainer.appendChild(button);
 });
