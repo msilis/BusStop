@@ -9,10 +9,9 @@ busStops.forEach((stop) => {
   button.id = stop.id;
   button.textContent = stop.name;
   button.className = "busButton";
+  button.setAttribute("onClick", "");
 
-  const event = "ontouchstart" in window ? "touchstart" : "click";
-
-  button.addEventListener(event, () => {
+  button.addEventListener("click", () => {
     playSound(stop.id);
   });
 
