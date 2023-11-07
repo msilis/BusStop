@@ -16,6 +16,7 @@ busStops.forEach((stop) => {
     playSound(stop.id);
   });
   button.addEventListener("touchstart", () => {
+    console.log("touchstart event");
     playSound(stop.id);
   });
 
