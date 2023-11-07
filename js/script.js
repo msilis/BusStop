@@ -1,5 +1,6 @@
 import { busStops } from "../stopInfo/busStops.js";
 import { playSound } from "./playSound.js";
+import { PointerListener } from "./contact.js";
 
 const buttonContainer = document.getElementById("busRouteContainer");
 
@@ -14,8 +15,7 @@ busStops.forEach((stop) => {
   button.addEventListener("click", () => {
     playSound(stop.id);
   });
-
-  const pointerListener = new pointerListener(button);
+  const pointerListener = new PointerListener(button);
   button.addEventListener("tap", () => playSound(stop.id));
 
   buttonContainer.appendChild(button);
